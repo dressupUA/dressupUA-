@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DressUPUA</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(to right, #0057b7, #ffd700);
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+    header img {
+      height: 60px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+    }
+    .product {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+    .product h3 {
+      margin: 10px 0;
+      font-size: 18px;
+    }
+    .tg-button {
+      display: inline-block;
+      background: linear-gradient(to right, #0057b7, #ffd700);
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 12px 24px;
+      border-radius: 30px;
+      transition: background 0.3s;
+      margin: 30px auto;
+      text-align: center;
+    }
+    .tg-button:hover {
+      opacity: 0.9;
+    }
+    .footer {
+      text-align: center;
+      padding: 20px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="DressUPUA Logo">
+    <h1>DressUPUA</h1>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="shoes1.jpg" alt="Sneakers 1">
+      <h3>New Balance 2002R</h3>
+    </div>
+    <div class="product">
+      <img src="shoes2.jpg" alt="Sneakers 2">
+      <h3>White & Green Streetwear</h3>
+    </div>
+    <div class="product">
+      <img src="shoes3.jpg" alt="Sneakers 3">
+      <h3>Asics Gel-Kahana</h3>
+    </div>
+  </section>
+
+  <div style="text-align:center">
+    <a class="tg-button" href="https://t.me/DressUPUA" target="_blank">Приєднатися до Telegram</a>
+  </div>
+
+  <footer class="footer">
+    &copy; 2025 DressUPUA. Усі права захищені.
+  </footer>
+</body>
+</html>
